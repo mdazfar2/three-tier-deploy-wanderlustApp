@@ -70,8 +70,5 @@ Welcome to Wanderlust! This three-tier travel app, powered by React.js, Node.js,
 - [Mail Me](mailto:azfaralam.ops@gmail.com)
 
   ---
-
-  <br>
-  <br>
   
 ### Will also deploy it using kubernetes, stay tuned! Thanks :)
