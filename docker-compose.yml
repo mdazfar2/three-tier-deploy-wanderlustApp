@@ -10,7 +10,7 @@ services:
 
   backend:
     container_name: backend
-    image: azfaralam440/wanderlust:backend
+    build: ./backend
     env_file:
       - ./backend/.env.sample
     ports:
@@ -20,7 +20,7 @@ services:
 
   frontend:
     container_name: frontend
-    image: azfaralam440/wanderlust:frontend
+    build: ./frontend
     env_file:
       - ./backend/.env.sample
     ports:
