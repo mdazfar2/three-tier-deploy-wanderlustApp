@@ -57,7 +57,7 @@ Welcome to Wanderlust! This three-tier travel app, powered by React.js, Node.js,
       ```
   11. Now go the Inside the mongoDB container for Import sample data
       ```bash
-      docker exec -it <ur-containerID-here> mongoimport --db wanderlust --collection posts --file ./data/sample_posts.json --jsonArray
+      docker exec -it <ur-containerID-of-mongo> mongoimport --db wanderlust --collection posts --file ./data/sample_posts.json --jsonArray
   11. Now use your <EC2-public-Ip> with port:5173
       ```
       EC2-public-Ip:5173
