@@ -51,4 +51,25 @@ Welcome to Wanderlust! This three-tier travel app, powered by React.js, Node.js,
       cd ..
       ```
 
+10. Now run the docker-compose-
+      ```bash
+      docker-compose up -d --build
+      ```
+  11. Now go the Inside the mongoDB container for Import sample data
+      ```bash
+      docker exec -it <ur-containerID-of-mongo> mongoimport --db wanderlust --collection posts --file ./data/sample_posts.json --jsonArray
+  11. Now use your <EC2-public-Ip> with port:5173
+      ```
+      EC2-public-Ip:5173
+      ```
+
+      ***After this it will be running fine and well, if you are facing any issues, please don't hesitate to ask me. You can connect with me on-***
+
+- [LinkedIN](https://linkedin.com/in/md-azfar-alam)
+- [Discord](https://discordapp.com/users/877531143610708028)
+- [Mail Me](mailto:azfaralam.ops@gmail.com)
+
+  ---
+  
+### Will also deploy it using kubernetes, stay tuned! Thanks :)
   
