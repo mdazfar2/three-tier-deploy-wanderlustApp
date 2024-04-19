@@ -18,4 +18,13 @@ services:
     depends_on:
       - mongodb
 
+  frontend:
+    container_name: frontend
+    build: ./frontend
+    env_file:
+      - ./backend/.env.sample
+    ports:
+      - "5173:5173"
 
+volumes:
+  data:
