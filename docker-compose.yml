@@ -15,8 +15,8 @@ services:
       - ./backend/.env.sample
     ports:
       - "5000:5000"
-    depend:
-      - mongob
+    depends_on:
+      - mongodb
 
   frontend:
     container_name: frontend
