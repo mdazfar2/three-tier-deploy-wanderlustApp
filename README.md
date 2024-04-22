@@ -31,20 +31,7 @@ Welcome to Wanderlust! This three-tier travel app, powered by React.js, Node.js,
      docker build -t backend .
      ```
 
-  6. Now move back to the `frontend` directory
-     ```bash
-     cd ../frontend
-     ```
-  7. Then again go to the `.env.sample` file and edit, and paste your public ec2 id & then save
-     ```bash
-     vim .env.sample
-     ```
-     ![image](https://github.com/mdazfar2/three-tier-deploy-wanderlustApp/assets/100375390/ae48cd24-e220-403f-a79b-cc86de7f0c0d)
-
-  8. Then build the image for `frontend`
-     ```bash
-     docker build -t frontend .
-     ```
+  
 
   9. Now, navigate to the main directory of our project, which is `three-tier-deploy-wanderlustApp`.
       ```bash
