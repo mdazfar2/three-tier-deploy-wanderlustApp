@@ -24,7 +24,7 @@ Welcome to Wanderlust! This three-tier travel app, powered by React.js, Node.js,
      ```bash
      vim .env.sample
      ```
-     
+     ![.env.sample file](https://github.com/mdazfar2/three-tier-deploy-wanderlustApp/assets/100375390/4e322317-9631-4eee-9b0f-55fdddfe0065)
 
   5. And then build image for `backend`
      ```bash
